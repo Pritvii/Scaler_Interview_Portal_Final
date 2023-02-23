@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rounded_corner_rv_main"
+    android:layout_marginBottom="10dp"
+    android:layout_height="180dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:id="@+id/tv_rv_main_item"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily = "sans-serif-condensed"
+        android:text="MEETING NAME"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_rv"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rv_main_item"
+        >
+        <TextView
+            android:id="@+id/tv_rv_time_start"
+            android:layout_width="170dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner_rv_main"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="TIME:DATE"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_rv_main_item"
+            />
+
+        <TextView
+            android:id="@+id/tv_rv_time_end"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_corner_rv_main"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="TIME:DATE"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="5dp"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/tv_rv_time_start"
+            />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

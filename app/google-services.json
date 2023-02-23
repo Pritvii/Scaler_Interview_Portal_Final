@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "858574451430",
+    "project_id": "scalarinterviewportal",
+    "storage_bucket": "scalarinterviewportal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858574451430:android:8248acf3b4f9e09fed8127",
+        "android_client_info": {
+          "package_name": "com.example.scaler_interview_portal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858574451430-s00mhp5g0thg6nik1na9euos0l4jp3b8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxwSW1tET_h5fuJMyvZTyZii6Lhi9wWhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858574451430-s00mhp5g0thg6nik1na9euos0l4jp3b8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
