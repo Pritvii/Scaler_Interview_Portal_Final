@@ -37,4 +37,4 @@ Create a simple app where admins can create interviews by selecting participants
 ## App Video 
 
 ![video](https://github.com/janeprakeerth/Scaler_Interview_Portal/blob/master/Screenshots/video.mp4)
-https://github.com/janeprakeerth/Scaler_Interview_Portal/blob/master/Screenshots/video.mp4
+https://drive.google.com/drive/folders/1p5HrdatAvtaNDeBQywB0AgYIhUo0NQ5U?usp=share_link
